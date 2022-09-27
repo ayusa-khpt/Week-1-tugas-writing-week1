@@ -1,5 +1,5 @@
 # **Writing and Presentation**
-## Day 1 Unix Commad Line
+## Day 1 Unix Commad Line & GIT/GitHub
 - ### CLI (Command Line Interface)
   <div align="justify">CLI merupakn sebuah program atau mekanisme interaksi dengan perangkat lunak komputer dengan memasukkan perintah untuk melakukan tugas tertentu. Macam CLI (CLI bawaan sistem operasi seperti cmd.exe milik Windows atau bash dan zsh di sistem operasi mirip dengan Unix).
 - ### Shell
@@ -20,7 +20,7 @@
   - cp (copy), Command untuk mengcopy files atau directory.
   - mv (move), Command untuk memindahkan files atau directory. Bisa juga digunakan untuk rename.
   - rm (remove), Command untuk menghapus file atau directory.
-## GIT & GitHub
+## Day 1 GIT & GitHub
 - ### Pengertian GIT dan GitHub
   - GIT 
     <div align="justify">GIT adalah aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file. Git biasanya digunakan oleh para programmer sebagai tempat penyimpanan file pemrograman mereka, karena lebih efektif. File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
@@ -42,3 +42,36 @@
 - ### Repository GIT
   <div align="justify">Repository adalah direktori proyek yang kita buat. 1 Repo =  1 Proyek = 1 Direktori. 
 - ### Command didalam GIT dan GitHub
+  - Membuat Repository Baru
+    <div align="justify">git init <nama_proyek> contoh git init proyek-01
+  - Melakukan Commit pada GIT
+    <div align="justify">Git commit berfungsi untuk melakukan commit atau menyimpan perubahan pada version control pada git. Dan kita bisa menambahkan pesan untuk memberikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout" (Perubahan Pertama)
+  - Mempublish Aplikasi 
+    <div align="justify">Untuk mempublish file atau aplikasi ke github dapat menggunakan git push origin
+  - Melakukan Cloning
+    <div align="justify">Untuk melakukan cloning dari github ke komputer atau local dapet menggunakan git clone
+&nbsp;
+## Day 2 HTML
+- ### Pengertian HTML 
+  <div align="justify">HTML adalah singkatan dari Hypertext Markup Language. HTML digunakan untuk menampilkan konten pada web. HTML dapat dianalogikan sebagai kerangka dari suatu website. HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
+  <div align="justify">Contoh konten pada HTML: Text, Image, Video, Link dll
+- ### Kerangka HTML 
+  Adapun tag kerangka pada HTML seperti dibawah ini:
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>
+      Judul Website
+    </title>
+  <body>
+      Latihan Dasar HTML
+    </body>
+  </html>
+  ```
+  <div align="justify">Pada kerangka diatas dapat dilihat pada setiap tag pembuka akan diakhiri dengan tag penutup
+&nbsp;
+
+- ### Tools HTML
+  <div align="justify">Seorang programmer akan selalu menggunakan berbagai macam tools. Tools ini untuk memudahkan dan menambah produktifitas seorang programmer. Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML yaitu Browser dan Code Editor
+  Visual Studio Code: Visual Studio Code adalah code editor yang dikembangkan oleh tim engineer Microsoft. Visual Code Studio merupakan paket all in one. Kamu bisa menggunakan ini untuk bahasa pemrograman apapun.
