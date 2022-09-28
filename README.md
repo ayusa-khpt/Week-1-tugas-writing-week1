@@ -1,5 +1,5 @@
 # **Writing and Presentation**
-## Day 1 Unix Commad Line 
+## Unix Commad Line 
 - ### CLI (Command Line Interface)
   <div align="justify">CLI merupakn sebuah program atau mekanisme interaksi dengan perangkat lunak komputer dengan memasukkan perintah untuk melakukan tugas tertentu. Macam CLI (CLI bawaan sistem operasi seperti cmd.exe milik Windows atau bash dan zsh di sistem operasi mirip dengan Unix).
 - ### Shell
@@ -20,7 +20,7 @@
   - cp (copy), Command untuk mengcopy files atau directory.
   - mv (move), Command untuk memindahkan files atau directory. Bisa juga digunakan untuk rename.
   - rm (remove), Command untuk menghapus file atau directory.
-## Day 1 GIT & GitHub
+## GIT & GitHub
 - ### Pengertian GIT dan GitHub
   - GIT 
     <div align="justify">GIT adalah aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file. Git biasanya digunakan oleh para programmer sebagai tempat penyimpanan file pemrograman mereka, karena lebih efektif. File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, termasuk siapa yang mengubah.
@@ -51,7 +51,7 @@
   - Melakukan Cloning
     <div align="justify">Untuk melakukan cloning dari github ke komputer atau local dapet menggunakan git clone
 &nbsp;
-## Day 2 HTML
+## HTML
 - ### Pengertian HTML 
   <div align="justify">HTML adalah singkatan dari Hypertext Markup Language. HTML digunakan untuk menampilkan konten pada web. HTML dapat dianalogikan sebagai kerangka dari suatu website. HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
   <div align="justify">Contoh konten pada HTML: Text, Image, Video, Link dll
@@ -140,7 +140,7 @@
    - Deploy HTML
      <div align="justify">Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify
 &nbsp;
-## Day 3 CSS
+## CSS
 - ### Pengertian CSS 
   <div align="justify">CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain halaman website. Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya. Jika dianalogikan CSS merupakan baju dari sebuah website yang dapat membuat website terlihat lebih menarik
 - ### Menyisipkan CSS ke dalam HTML dan Styling CSS
@@ -251,3 +251,124 @@
 - ### CSS Flexbox 
   <div align="justify">Flexbox merupakan konsep pengaturan layout yang mengatur ukuran elemen Child dari suatu Container untuk beradaptasi dengan Parent/Container-nya. Flexbox umumnya digunakan pada sebuah elemen yang tidak pasti ukurannya atau berubah-ubah(dinamis). Hal ini sangat bermanfaat untuk membuat tampilan website responsif.
 &nbsp;
+## Algoritma dan Data Structure
+- ### Definisi Algoritma
+  <div align="justify">Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Dalam menyelesaikan masalah diperlukan data struktur, nah data inilah yang digunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
+- ### Kenapa harus belajar algoritma?
+  - Mempermudah pembuatan program dapat menyelesaikan masalah tertentu.
+  - Data struktur digunakan untuk mengelola/manajemen sebuah data
+  - Dan Algoritma yang akan menyelesaikan suatu permasalahan menggunakan data tersebut.
+- ### Kualitas Algoritma
+  - Input dan output harus didefinisikan terlebih dahulu dengan tepat
+  - Setiap step harus benar-benar clear dan tidak ambigu
+  - Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu. Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
+- ### Algoritma Sederhana
+  - Contoh
+    
+    Menambahkan dua angka untuk pengguna
+    
+    a. Step 1 : Start
+    
+    b. Step 2 : Declare Variables num1, num2 and sum
+    
+    c. Step 3 : Read values num1 and num2
+    
+    d. Step 4 : add num1 and num2 and assign the result to sum. sum<-num1+num2
+    
+    c. Step 5 : Display Sum
+    
+    d. Step 6 : Stop
+    
+- ### Pseudocode
+  <div align="justify">Pseudocode adalah menuliskan algoritma dengan umumnya bahasa inggris sebelum kita implementasikan ke bahasa pemograman tertentu. 
+- ### Panduan menulis pseudocode
+  
+  - Menggunakan HURUF BESAR pada kata kunci (key commands). 
+  
+  CONTOH: IF number is > 10 THEN …
+  
+  - 1 statement =  1 baris 
+  
+  - Gunakan indentasi
+  
+  - Please please be specific
+  
+  - Tapi tetap simpel
+
+  Contoh :
+
+    ```md
+    STORE "width" with any number
+    STORE "height" with any nummber
+    STORE "area" without any value
+
+    CALCULATE "width" times "height"
+    SET "area" value with calculation result
+    DISPLAY "area"
+    ```
+ 
+- ### Pseudocode berdasarkan kondisi 
+
+  - Procedural
+  
+  <div align="justify">Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
+  
+  Contoh :
+
+      ```md
+      STORE "width" with any number
+      STORE "height" with any nummber
+      STORE "area" without any value
+
+      CALCULATE "width" times "height"
+      SET "area" value with calculation result
+      DISPLAY "area"
+      ```
+ - Conditional
+ 
+    <div align="justify">Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi. Jika hari ini tidak hujan, maka Bob pergi ke pasar, jika tidak maka Bob dirumah aja. Jika tidak terpenuhi, maka tidak akan dijalankan.
+  
+  Contoh :
+  
+    ```md
+      IF "bright"
+      DO "go to the market"
+      ELSE
+      DO "stay at home"
+      ```
+ - Looping 
+ 
+   <div align="justify">Komputer dapat melakukan sebuah proses yang sama berulang-ulang. Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.
+  
+  Contoh :
+  
+     ```md
+      STORE "count" t0 1
+
+      WHILE "count" < 11
+      DISPLAY "count"
+      CALCULATE "count" mod 2
+      STORE "reminder" value with calculation result
+      IF "reminder" equals to 0
+      DISPLAY "EVEN!"
+      ELSE
+      DISPLAY "ODD!"
+   
+ - Recursive 
+    <div align="justify">Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
+  
+## JavaScript Dasar
+  
+   - Definisi
+      <div align="justify">Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website. Javascript juga dapat membuat website menjadi interaktif dan dinamis
+   - Menjalankan JS
+      <div align="justify">Javascript dijalankan melalui browser pada device setiap user. 
+   - Tipe Data
+      <div align="justify">Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming. Ada 6 tipe data fundamental pada Javascript (number, string, boolean, null, undefined, object)
+      
+      - number: Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal.Contoh (2, 4, 1200, 23.42)
+      - string: ipe data string adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya. Harus diawali dan diakhiri dengan single quotes ‘ … ‘ ataupun double quotes “ … “.
+      - boolean: Tipe data boolean adalah tipe data yang hanya mempunyai 2 buah nilai. 2 buah nilai tersebut adalah TRUE (benar) or FALSE (salah). Analoginya adalah seperti tombol/button ON/OFF dan juga seperti sebuah jawaban antara YES/NO.
+      - null: Tipe data null adalah tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. Null berbeda dengan string kosong. String kosong masih memiliki tipe data string.
+      - undefined: Tipe data undefined adalah tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai. Undefined berbeda dengan null.
+      - object: Tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya).Tipe data object mempunyai key dan value.
